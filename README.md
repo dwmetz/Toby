@@ -40,15 +40,16 @@ Toby-Find on Kali
 
 ## 📦 Installation
 
-1. Download and unzip:
+1. Clone the repository:
 
    ```bash
-   unzip Toby-Find.zip && cd Toby-Find
+   git clone https://github.com/dwmetz/Toby.git
    ```
 
 2. Make the install script executable:
 
    ```bash
+   cd Toby
    chmod +x install.sh
    ```
 
