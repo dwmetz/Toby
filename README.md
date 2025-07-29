@@ -1,5 +1,5 @@
 <div align="center">
- <img style="padding:0;vertical-align:bottom;" height="400" width="400" src="images/malchela.png"/>
+ <img style="padding:0;vertical-align:bottom;" height="400" width="400" src="images/toby-art.png"/>
  <p>
  <h1>
   🔎 Toby-Find
@@ -10,6 +10,18 @@
 **Toby (Toby-Find)** is a lightweight discovery utility for terminal-based forensic tools on **KALI** and **REMnux**.
 
 It provides quick access to tool descriptions, usage examples, and aliases — making it easy to remember what’s installed and how to use it.
+
+---
+Toby-Find on REMnux
+<div align="center">
+ <img style="padding:0;vertical-align:bottom;" height="600" width="900" src="images/toby-screenshot-remnux.png"/>
+ <p>
+
+
+Toby-Find on Kali
+ <div align="center">
+ <img style="padding:0;vertical-align:bottom;" height="600" width="900" src="images/toby-screenshot-kali.png"/>
+ <p>
 
 ---
 <div align="left">
