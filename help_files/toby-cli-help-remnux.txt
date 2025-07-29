@@ -1,0 +1,1425 @@
+--------------------------------------------------
+Magika           Identify file type using signatures.
+Category:        General
+Website:         https://google.github.io/magika/
+Author:          Google
+License:         Apache License 2.0
+--------------------------------------------------
+Yara Rules       Statically scan a file to identify common malicious capabilities.
+Category:        General
+Website:         https://github.com/Yara-Rules/rules
+Author:          A group of IT security researchers
+License:         GNU General Public License  v2:
+Example:         yara-rules FILE
+--------------------------------------------------
+Detect-It-Easy   Determine types of files and examine file properties.
+Category:        General
+Website:         https://github.com/horsicq/Detect-It-Easy
+Author:          hors
+License:
+Example:         die
+--------------------------------------------------
+ExifTool         Tool to read from, write to, and edit EXIF metadata of various file types
+Category:        General
+Website:         https://exiftool.org
+Author:          Phil Harvey
+License:         "This is free software; you can redistribute it and/or modify it under the same terms as Perl itself":
+--------------------------------------------------
+DroidLysis       Perform static analysis of Android applications.
+Category:        General
+Website:         https://github.com/cryptax/droidlysis
+Author:          cryptax
+License:         MIT License:
+--------------------------------------------------
+zipdump.py       Analyze zip-compressed files.
+Category:        General
+Website:         https://blog.didierstevens.com/2020/07/27/update-zipdump-py-version-0-0-20/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+msitools 	 Create, inspect and extract Windows Installer (.msi) files.
+Category:        General
+Website:         https://wiki.gnome.org/msitools
+Author:          Paolo Bonzini, Marc-Andre Lureau
+License:         GNU Lesser General Public License  v2.1 or later:
+--------------------------------------------------
+numbers-to-string.py 	Convert decimal numbers to strings.
+Category:        General
+Website:         https://blog.didierstevens.com/2020/12/12/update-numbers-to-string-py-version-0-0-11/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+re-search.py     Search the file for built-in regular expressions of common suspicious artifacts.
+Category:        General
+Website:         https://blog.didierstevens.com/2021/05/23/update-re-search-py-version-0-0-17/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+disitool         Manipulate embedded digital signatures.
+Category:        General
+Website:         https://blog.didierstevens.com/programs/disitool/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+Name-That-Hash   Identify different types of hashes.
+Category:        General
+Website:         https://github.com/HashPals/Name-That-Hash
+Author:          randon / Bee
+License:         GNU General Public License  v3.0: 
+--------------------------------------------------
+Hash ID          Identify dfferent types of hashes.
+Category:        General
+Website:         https://github.com/blackploit/hash-identifier
+Author:          Zion3R
+License:         GNU General Public License  v3
+--------------------------------------------------
+signsrch         Find patterns of common encryption, compression, or encoding algorithms
+Category:        General
+Website:         http://aluigi.altervista.org/mytoolz.htm
+Author:          Luigi Auriemma
+License:         Free, unknown license
+--------------------------------------------------
+ssdeep           Compute Context Triggered Piecewise Hashes (CTPH), also known as fuzzy hashes.
+Category:        General
+Website:         https://ssdeep-project.github.io/ssdeep/index.html
+Author:          Jesse Kornblum, Helmut Grohne, Tsukasa OI
+License:         GNU General Public License  v2:
+Example:         ssdeep -r /evidence
+--------------------------------------------------
+7-Zip            Compress and decompress files using a variety of algorithms.
+Category:        General
+Website:         https://www.7-zip.org
+Author:          Igor Pavlov
+License:         GNU Lesser General Public License
+--------------------------------------------------
+wxHexEditor      Hex editor
+Category:        General
+Website:         https://sourceforge.net/projects/wxhexeditor/
+Author:          Unknown
+License:         GNU General Public License  v2:
+--------------------------------------------------
+ClamAV           Scan files for malware signatures.
+Category:        General
+Website:         https://www.clamav.net
+Author:
+License:         GNU General Public License :
+--------------------------------------------------
+bulk\_extractor  Extract interesting strings from binary files.
+Category:        General
+Website:         [https://github.com/simsong/bulk
+Author:
+License:         Portions Public Domain, portions MIT License:
+--------------------------------------------------
+Hachoir          View, edit, and carve contents of various binary file types.
+Category:        General
+Website:         https://github.com/vstinner/hachoir
+Author:
+License:         GNU General Public License  v2:
+--------------------------------------------------
+Sleuth Kit       Analyze disk images and recover files from them.
+Category:        General
+Website:         https://www.sleuthkit.org/sleuthkit
+Author:          Brian Carrier, and others
+License:         IBM Public License, Common Public License, GNU General Public License  v2:
+--------------------------------------------------
+binwalk          Extract and analyze firmware images.
+Category:        General
+Website:         https://github.com/ReFirmLabs/binwalk
+Author:          Craig Heffner, ReFirmLabs
+License:         IBM Public License, Common Public License, GNU General Public License  v2:
+Example:         binwalk -e firmware.bin
+--------------------------------------------------
+file             Identify file type using "magic" numbers.
+Category:        General
+Website:         http://astron.com/pub/file/README
+Author:          Ian F. Darwin, Christos Zoulas
+License:         BSD 2-Clause "Alike" License:
+--------------------------------------------------
+StringSifter     Automatically rank strings based on their relevance to the analysis of suspicious Windows executables.
+Category:        PE Files
+Website:         https://github.com/fireeye/stringsifter
+Author:          FireEye Inc.
+License:         Apache License 2.0:
+--------------------------------------------------
+PEframe          Statically analyze PE and Microsoft Office files.
+Category:        PE Files
+Website:         https://github.com/digitalsleuth/peframe
+Author:          Gianni Amato
+License:         Free, unknown license
+--------------------------------------------------
+dllcharacteristics.py 	Read and set DLL characteristics of a PE file.
+Category:        PE Files
+Website:         https://github.com/accidentalrebel/dllcharacteristics.py
+Author:          Karlo Licudine
+License:         GNU General Public License  v3.0:
+--------------------------------------------------
+pefile           Python library for analyzing static properties of PE files.
+Category:        PE Files
+Website:         https://github.com/erocarrera/pefile
+Author:          Ero Carrera
+License:         MIT License:
+--------------------------------------------------
+PE Tree          Examine contents and structure of PE files.
+Category:        PE Files
+Website:         [https://github.com/blackberry/pe
+Author:          BlackBerry Limitedand Tom Bonner:
+License:         Apache License 2.0:
+--------------------------------------------------
+pedump           Statically analyze PE files and extract their components (e.g., resources).
+Category:        PE Files
+Website:         https://github.com/zed-0xff/pedump
+Author:          Andrey "Zed" Zaikin
+License:         MIT License:
+--------------------------------------------------
+pecheck          Analyze static properties of PE files.
+Category:        PE Files
+Website:         https://blog.didierstevens.com/2020/03/15/pecheck-py-version-0-7-10/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+pev              Analyze PE files and extract strings from them
+Category:        PE Files
+Website:         https://pev.sourceforge.io
+Author:          Fernando Merces, Jardel Weyrich
+License:         GNU General Public License  v2:
+--------------------------------------------------
+PortEx           Statically analyze PE files.
+Category:        PE Files
+Website:         https://github.com/katjahahn/PortEx
+Author:          Karsten Hahn
+License:         Apache License 2.0:
+--------------------------------------------------
+bearparser       Parse PE file contents.
+Category:        PE Files
+Website:         https://github.com/hasherezade/bearparser/wiki
+Author:          hasherezade
+License:         BSD 2-Clause "Simplified" License:
+--------------------------------------------------
+debloat          Remove junk contents from bloated Windows executables.
+Category:        PE Files
+Website:         https://github.com/Squiblydoo/debloat
+Author:          Squiblydoo:
+License:         BSD 3-Clause License:
+Example:         debloat
+--------------------------------------------------
+dotnetfile       Analyze static properties of .NET files.
+Category:        .NET
+Website:         https://github.com/pan-unit42/dotnetfile
+Author:          Palo Alto Networks Unit 42
+License:         MIT License:
+Example:         dotnetfile_dump.py
+--------------------------------------------------
+Malchive         Perform static analysis of various aspects of malicious code.
+Category:        Deobfuscation
+Website:         https://github.com/MITRECND/malchive
+Author:          The MITRE Corporation
+License:         License 2.0:
+Example:         malutil-
+--------------------------------------------------
+1768.py          Analyze Cobalt Strike beacons.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2021/05/22/update-1768-py-version-0-0-6/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+cs-decrypt-metadata.py Decrypt Cobalt Strike metadata.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2021/11/12/update-cs-decrypt-metadata-py-version-0-0-2/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+Cobalt Strike Configuration Extractor (CSCE) and Parser	Analyze Cobalt Strike beacons.
+Category:        Deobfuscation
+Website:         https://github.com/strozfriedberg/cobaltstrike-config-extractor
+Author:          Aon / Stroz Friedberg
+License:         Apache License 2.0:
+--------------------------------------------------
+sets.py          Perform set operations on lines or bytes in text files.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2017/03/05/new-tool-sets-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+xortool          Analyze XOR-encoded data.
+Category:        Deobfuscation
+Website:         https://github.com/hellman/xortool
+Author:          Aleksei Hellman
+License:         MIT License:
+--------------------------------------------------
+RATDecoders      Python3 Decoders for Remote Access Trojans
+Category:        Deobfuscation
+Website:         https://github.com/kevthehermit/RATDecoders
+Author:          Kevin Breen
+License:         MIT License:
+--------------------------------------------------
+DC3-MWCP         Parsing configuration information from malware.
+Category:        Deobfuscation
+Website:         https://github.com/Defense-Cyber-Crime-Center/DC3-MWCP
+Author:          Defense Cyber Crime Center - United States Government
+License:         Some parts Public Domain, some MIT License:
+--------------------------------------------------
+unicode          Display Unicode character properties.
+Category:        Deobfuscation
+Website:         https://github.com/garabik/unicode
+Author:          Radovan Garabik
+License:         GNU General Public License  v3:
+--------------------------------------------------
+Chepy            Decode and otherwise analyze data using this command-line tool and Python library.
+Category:        Deobfuscation
+Website:         https://github.com/securisec/chepy
+Author:          securisec
+License:         GNU General Public License  v3:
+--------------------------------------------------
+Balbuzard        Extract and deobfuscate patterns from suspicious files.
+Category:        Deobfuscation
+Website:         https://github.com/decalage2/balbuzard
+Author:          Philippe Lagadec
+License:         Free, custom license:
+--------------------------------------------------
+base64dump       Locate and decode strings encoded in Base64 and other common encodings.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2020/07/03/update-base64dump-py-version-0-0-12/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+xor-kpa.py       Implement a XOR known plaintext attack.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2017/06/06/update-xor-kpa-py-version-0-0-5/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+NoMoreXOR.py     Help guess a file's 256-byte XOR by using frequency analysis.
+Category:        Deobfuscation
+Website:         https://github.com/hiddenillusion/NoMoreXOR
+Author:          Glenn P. Edwards Jr.
+License:         Free, unknown license
+--------------------------------------------------
+unXOR            Deobfuscate XOR'ed files.
+Category:        Deobfuscation
+Website:         https://github.com/tomchop/unxor/
+Author:          Thomas Chopitea
+License:         Apache License 2.0:
+--------------------------------------------------
+brxor.py         Bruteforce XOR'ed strings to find those that are English words.
+Category:        Deobfuscation
+Website:         https://github.com/REMnux/distro/blob/master/files/brxor.py
+Author:          Alexander Hanel, Trenton Tait
+License:         Free, unknown license
+--------------------------------------------------
+xorBruteForcer.py Bruteforce an XOR-encoded file.
+Category:        Deobfuscation
+Website:         https://eternal-todo.com/category/bruteforcer
+Author:          Jose Miguel Esparza
+License:         Free, unknown license
+--------------------------------------------------
+strdeob.pl       Locate and decode stack strings in executable files.
+Category:        Deobfuscation
+Website:         https://github.com/REMnux/distro/blob/master/files/strdeob.pl
+Author:          TotalHash
+License:         Free, unknown license
+--------------------------------------------------
+ex\_pe\_xor.py   Search an XOR'ed file for indications of executable binaries.
+Category:        Deobfuscation
+Website:         http://hooked-on-mnemonics.blogspot.com/2014/04/expexorpy.html
+Author:          Alexander Hanel
+License:         Free, unknown license
+--------------------------------------------------
+cut-bytes.py     Cut out a part of a data stream.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2015/10/14/cut-bytes-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+format-bytes.py  Decompose structured binary data with format strings.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2020/02/17/update-format-bytes-py-version-0-0-13/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+translate.py     Translate bytes according to a Python expression.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/programs/translate/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+XORStrings       Search for XOR encoded strings in a file.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/2013/04/15/new-tool-xorstrings/
+Author:          Didier Stevens
+License:         Free, unknown license
+--------------------------------------------------
+XORSearch        Locate and decode strings obfuscated using common techniques.
+Category:        Deobfuscation
+Website:         https://blog.didierstevens.com/programs/xorsearch/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+FLOSS            Extract and deobfuscate strings from PE executables.
+Category:        Deobfuscation
+Website:         https://github.com/mandiant/flare-floss
+Author:          FireEye Inc, Willi BallenthinMoritz Raabe
+License:         Apache License 2.0:
+Example:         floss suspicious.exe
+--------------------------------------------------
+Ghidra           Software reverse engineering tool suite
+Category:        General
+Website:         https://ghidra-sre.org
+Author:          National Security Agency
+License:         Apache License 2.0:
+--------------------------------------------------
+Cutter           Reverse engineering platform powered by Rizin
+Category:        General
+Website:         https://cutter.re
+Author:
+License:         GNU General Public License  v3.0:
+--------------------------------------------------
+Detect-It-Easy 	 Determine types of files and examine file properties.
+Category:        General
+Website:         https://github.com/horsicq/Detect-It-Easy
+Author:          hors
+License:         MIT License:
+Example:         die
+--------------------------------------------------
+Qiling           Emulate code execution of PE files, shellcode, etc. for a variety of OS and hardware platforms.
+Category:        General
+Website:         https://www.qiling.io
+Author:
+License:         GNU General Public License  v2.0:
+Example:         qltool
+--------------------------------------------------
+Vivisect         Statically examine and emulate binary files.
+Category:        General
+Website:         https://github.com/vivisect/vivisect
+Author:          invisigoth: invisigoth@kenshoto.com, installable vivisect module by Willi Ballenthin
+License:         Apache License 2.0:
+--------------------------------------------------
+objdump          Disassemble binary files.
+Category:        General
+Website:         https://en.wikipedia.org/wiki/Objdump
+Author:          Unknown
+License:         GNU General Public License
+--------------------------------------------------
+Bytehist         Generate byte-usage-histograms for all types of files with a focus PE files.
+Category:        Unpacking
+Website:         [https://www.cert.at/downloads/software/bytehist
+Author:          Christian Wojner
+License:         ISC License:
+--------------------------------------------------
+ClamAV           Scan files for malware signatures.
+Category:        Unpacking
+Website:         https://www.clamav.net
+Author:
+License:         GNU General Public License :
+--------------------------------------------------
+binwalk          Extract and analyze firmware images.
+Category:        Unpacking
+Website:         https://github.com/ReFirmLabs/binwalk
+Author:          Craig Heffner, ReFirmLabs
+License:         IBM Public License, Common Public License, GNU General Public License  v2:
+Example:         binwalk -e firmware.bin
+--------------------------------------------------
+UPX              Pack and unpack PE files.
+Category:        Unpacking
+Website:         https://upx.github.io
+Author:          Markus Oberhumer, Laszlo Molnar
+License:         GNU General Public License :
+Example:         upx -d malware.exe
+--------------------------------------------------
+Speakeasy        Emulate code execution, including shellcode, Windows drivers, and Windows PE files.
+Category:        PE Files
+Website:         https://github.com/fireeye/speakeasy
+Author:          FireEye Inc, Andrew Davis
+License:         MIT License:
+Example:         speakeasy
+--------------------------------------------------
+binee (Binary Emulation Environment) Analyze I/O operations of a suspicious PE file by emulating its execution.
+Category:        PE Files
+Website:         https://github.com/carbonblack/binee
+Author:          Carbon Black, Kyle Gwinnup, John Holowczak
+License:         GNU General Public License  v2:
+--------------------------------------------------
+mbcscan          Scan a PE file to list the associated Malware Behavior Catalog (MBC) details.
+Category:        PE Files
+Website:         https://github.com/accidentalrebel/mbcscan
+Author:          Karlo Licudine
+License:         GNU General Public License  v3.0:
+--------------------------------------------------
+capa             Detect suspicious capabilities in PE files.
+Category:        PE Files
+Website:         https://github.com/fireeye/capa
+Author:          FireEye Inc, Willi BallenthinMoritz Raabe:
+License:         Apache License 2.0:
+--------------------------------------------------
+Decompyle++      Python bytecode disassembler and decompiler
+Category:        Python
+Website:         https://github.com/zrax/pycdc
+Author:          Michael Hansen, Darryl Pogue
+License:         GNU General Public License  v3:
+--------------------------------------------------
+JS Beautifier    Reformat JavaScript scripts for easier analysis.
+Category:        Scripts
+Website:         https://beautifier.io/
+Author:          Einar Lielmanis, Liam Newman, and contributors
+License:         MIT License:
+--------------------------------------------------
+decode-vbe.py    Decode encoded VBS scripts (VBE).
+Category:        Scripts
+Website:         https://blog.didierstevens.com/2016/03/29/decoding-vbe/
+Author:          Didier Stevens
+License:         MIT License: Public Domain
+--------------------------------------------------
+JAD Java Decompiler Java decompiler and analysis tool
+Category:        Java
+Website:         Unknown
+Author:          Pavel Kouznetsov
+License:         Free, unknown license
+--------------------------------------------------
+JD-GUI Java Decompiler Java decompiler with GUI
+Category:        Java
+Website:         https://java-decompiler.github.io/
+Author:          Emmanuel Dupuy
+License:         GNU General Public License  v3:
+--------------------------------------------------
+Java IDX Parser  Analyze Java IDX files.
+Category:        Java
+Website:         https://github.com/digitalsleuth/Java
+Author:          Brian BaskinUpdated for Python 3 by Corey Forman
+License:         Apache License 2.0:
+--------------------------------------------------
+Javassist        Java bytecode engineering toolkit/library
+Category:        Java
+Website:         https://www.javassist.org/
+Author:          Shigeru Chiba
+License:         Mozilla Public License, GNU Lesser General Public License  v2.1 or later, Apache License 2.0:
+--------------------------------------------------
+Procyon          Java decompiler
+Category:        Java
+Website:         https://bitbucket.org/mstrobel/procyon
+Author:          Mike Strobel
+License:         Apache License 2.0:
+--------------------------------------------------
+ILSpy            Examine and decompile .NET programs.
+Category:        .NET
+Website:         https://github.com/icsharpcode/ILSpy
+Author:          AlphaSierraPapa and(
+License:         MIT License:
+Example:         ilspycmd
+--------------------------------------------------
+Flasm            Extract and disassemble ActionScript from Flash (SWF) files.
+Category:        Flash
+Website:         http://www.nowrap.de/flasm.html
+Author:          Igor Kogan, Wang Zhen
+License:         Freeware with some restrictions
+--------------------------------------------------
+xxxswf           Analyze Flash SWF files.
+Category:        Flash
+Website:         https://github.com/viper-framework/xxxswf
+Author:          Alexander Hanel
+License:         GNU General Public License  v3.0:
+--------------------------------------------------
+extract\_swf     Extract potential SWF files from Flash Projector binaries.
+Category:        Flash
+Website:         [https://github.com/digitalsleuth/extract
+Author:          Nathan Ostgard, Updated for Python 3 by Corey Forman
+License:         Free, unknown license
+--------------------------------------------------
+SWF Tools        Examine and convert Flash (SWF) files.
+Category:        Flash
+Website:         http://swftools.org
+Author:
+License:         GNU General Public License  v2:
+--------------------------------------------------
+apktool          Reverse-engineer Android APK files.
+Category:        Android
+Website:         https://ibotpeaches.github.io/Apktool/
+Author:          Connor Tumbleson, Ryszard Wisniewski
+License:         Apache License 2.0:
+--------------------------------------------------
+DroidLysis       Perform static analysis of Android applications.
+Category:        Android
+Website:         https://github.com/cryptax/droidlysis
+Author:          cryptax
+License:         MIT License:
+--------------------------------------------------
+androguard       Examine Android files.
+Category:        Android
+Website:         https://github.com/androguard/androguard
+Author:          Anthony Desnos, Geoffroy GueGuen
+License:         Apache License 2.0:
+--------------------------------------------------
+AndroidProjectCreator Convert an Android APK application file into an Android Studio project for easier analysis.
+Category:        Android
+Website:         https://maxkersten.nl/projects/androidprojectcreator
+Author:          Max Kersten
+License:         GNU General Public License  v3:
+Example:         AndroidProjectCreator -compactInstall
+--------------------------------------------------
+baksmali         Disassembler for the dex format used by Dalvik, Android's Java VM implementation.
+Category:        Android
+Website:         https://bitbucket.org/JesusFreke/smali
+Author:          Ben Gruver
+License:         Free, unknown license
+--------------------------------------------------
+dex2jar          Examine Dalvik Executable (dex) files.
+Category:        Android
+Website:         https://github.com/pxb1988/dex2jar
+Author:          Panxiaobo
+License:         Apache License 2.0:
+--------------------------------------------------
+Wine             Run Windows applications.
+Category:        General
+Website:         https://www.winehq.org
+Author:
+License:         GNU Lesser General Public License  v2.1 or later:
+--------------------------------------------------
+radare2          Examine binary files, including disassembling and debugging.
+Category:        General
+Website:         https://www.radare.org/n/radare2.html
+Author:
+License:         GNU Lesser General Public License  v3:
+--------------------------------------------------
+shellcode2exe.bat Convert 32 and 64-bit shellcode to a Windows executable file.
+Category:        Shellcode
+Website:         https://github.com/repnz/shellcode2exe
+Author:          Ori Damari
+License:         Free, unknown license
+--------------------------------------------------
+scdbg            Analyze shellcode by emulating its execution.
+Category:        Shellcode
+Website:         [http://sandsprite.com/blogs/index.php?uid=7
+Author:          David Zimmer
+License:         Free, unknown license
+--------------------------------------------------
+runsc            Run shellcode to trace and analyze its execution.
+Category:        Shellcode
+Website:         https://github.com/edygert/runsc
+Author:          Evan Dygert
+License:         MIT License:
+Example:         tracesc
+--------------------------------------------------
+Speakeasy        Emulate code execution, including shellcode, Windows drivers, and Windows PE files.
+Category:        Shellcode
+Website:         https://github.com/fireeye/speakeasy
+Author:          FireEye Inc, Andrew Davis
+License:         MIT License:
+Example:         speakeasy
+--------------------------------------------------
+Qiling           Emulate code execution of PE files, shellcode, etc. for a variety of OS and hardware platforms.
+Category:        Shellcode
+Website:         https://www.qiling.io
+Author:
+License:         GNU General Public License  v2.0:
+Example:         qltool
+--------------------------------------------------
+Bitdefender Disassembler (bddisasm) 	Disassemble 32 and 64-bit assembly instructions and emulate shellcode execution.
+Category:        Shellcode
+Website:         https://github.com/bitdefender/bddisasm
+Author:          Bitdefender's HVI Team
+License:         Apache License 2.0:
+--------------------------------------------------
+cut-bytes.py     Cut out a part of a data stream.
+Category:        Shellcode
+Website:         https://blog.didierstevens.com/2015/10/14/cut-bytes-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+libemu           A library for x86 code emulation and shellcode detection
+Category:        Shellcode
+Website:         https://github.com/buffer/libemu
+Author:
+License:         Free, unknown license
+--------------------------------------------------
+XORSearch        Locate and decode strings obfuscated using common techniques.
+Category:        Shellcode
+Website:         https://blog.didierstevens.com/programs/xorsearch/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+objects.js       Emulate common browser and PDF viewer objects, methods, and properties when deobfuscating JavaScript.
+Category:        Scripts
+Website:         https://github.com/REMnux/salt-states/blob/master/remnux/config/objects/objects.js
+Author:          Lenny Zeltser
+License:         Public Domain
+--------------------------------------------------
+STPyV8           Python3 and JavaScript interop engine, fork of the original PyV8 project
+Category:        Scripts
+Website:         https://github.com/area1/stpyv8
+Author:          Area1 Security
+License:         Apache License 2.0:
+--------------------------------------------------
+JStillery        Deobfuscate JavaScript scripts using AST and Partial Evaluation techniques.
+Category:        Scripts
+Website:         https://github.com/mindedsecurity/jstillery
+Author:          Stefano Di Paola, Minded Security
+License:         GNU General Public License  v3:
+--------------------------------------------------
+box-js           Analyze suspicious JavaScript scripts.
+Category:        Scripts
+Website:         https://github.com/CapacitorSet/box-js
+Author:          CapacitorSet
+License:         MIT License:
+--------------------------------------------------
+SpiderMonkey     Execute and deobfuscate JavaScript using Mozilla's standalone JavaScript engine.
+Category:        Scripts
+Website:         https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+Author:          Mozilla Foundation
+License:         Mozilla Public License 2.0:
+--------------------------------------------------
+Rhino Debugger   GUI JavaScript debugger
+Category:        Scripts
+Website:         https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Debugger
+Author:          Mozilla Project
+License:         Mozilla Public License v2.0:
+--------------------------------------------------
+PowerShell Core  Run PowerShell scripts and commands.
+Category:        Scripts
+Website:         https://github.com/powershell/powershell
+Author:          Microsoft Corporation
+License:         MIT License:
+--------------------------------------------------
+edb              An AArch32/x86/x86-64 debugger, well suited for debugging ELF files.
+Category:        ELF Files
+Website:         https://github.com/eteran/edb-debugger
+Author:          Evan Teran
+License:         GNU General Public License  v2:
+--------------------------------------------------
+ltrace           Trace library calls and signals.
+Category:        ELF Files
+Website:         https://ltrace.org
+Author:          Juan Cespedes
+License:         GNU General Public License  v2:
+--------------------------------------------------
+strace           Trace process' system calls and signals.
+Category:        ELF Files
+Website:         https://strace.io
+Author:          Paul Kranenburg, Branko Lankester, Rick Sladkey, etc.
+License:         GNU General Public License v2.1+:
+--------------------------------------------------
+Volatility Framework Memory forensics tool and framework
+Category:        Perform Memory Forensics
+Website:         https://github.com/volatilityfoundation/volatility
+Author:
+License:         GNU General Public License  v2:
+Example:         vol.py
+--------------------------------------------------
+linux\_mem\_diff\_tool Compare two memory images of Linux systems by using Volatility.
+Category:        Perform Memory Forensics
+Website:         [https://github.com/monnappa22/linux
+Author:          Monnappa K A
+License:         Free, unknown license
+--------------------------------------------------
+AESKeyFinder     Find 128-bit and 256-bit AES keys in a memory image.
+Category:        Perform Memory Forensics
+Website:         https://citp.princeton.edu/our-work/memory/
+Author:          Nadia Heninger, Alex Halderman
+License:         Free, unknown license
+--------------------------------------------------
+bulk\_extractor  Extract interesting strings from binary files.
+Category:        Perform Memory Forensics
+Website:         [https://github.com/simsong/bulk
+Author:
+License:         Portions Public Domain, portions MIT License:
+--------------------------------------------------
+RSAKeyFinder     Find BER-encoded RSA private keys in a memory image.
+Category:        Perform Memory Forensics
+Website:         https://citp.princeton.edu/our-work/memory/
+Author:          Nadia Heninger, Alex Halderman
+License:         Free, unknown license
+--------------------------------------------------
+Network Miner Free Edition Examine network traffic and carve PCAP capture files.
+Category:        Monitoring
+Website:         https://www.netresec.com
+Author:          NETRESEC AB
+License:         GNU General Public License  v2:
+--------------------------------------------------
+PolarProxy       Intercept and decrypt TLS traffic.
+Category:        Monitoring
+Website:         https://www.netresec.com
+Author:          NETRESEC AB
+License:         Creative Commons Attribution-NoDerivatives 4.0 International  License:
+--------------------------------------------------
+CapTipper        Analyze HTTP traffic and extract embedded artifacts.
+Category:        Monitoring
+Website:         [https://github.com/omriher/CapTipper/tree/python3
+Author:          Omri HerscoviciStevens
+License:         GNU General Public License v3.0:
+--------------------------------------------------
+mitmproxy        Investigate website interactions using this web proxy.
+Category:        Monitoring
+Website:         https://mitmproxy.org
+Author:
+License:         MIT License:
+--------------------------------------------------
+tshark           Capture and analyze network traffic with this console-based sniffer.
+Category:        Monitoring
+Website:         https://www.wireshark.org
+Author:          Gerald Combs and contributorsStevens
+License:         GNU General Public License  v2:
+Example:         tshark -r capture.pcap
+--------------------------------------------------
+wireshark        Capture and analyze network traffic with this sniffer.
+Category:        Monitoring
+Website:         https://www.wireshark.org
+Author:          Gerald Combs and contributorsStevens
+License:         GNU General Public License  v2:
+--------------------------------------------------
+tcpdump          Capture and analyze network traffic with this command-line sniffer.
+Category:        Monitoring
+Website:         https://www.tcpdump.org
+Author:
+License:         3-Clause BSD license:
+Example:         tcpdump -i eth0
+--------------------------------------------------
+ngrep            Look for patterns in network traffic.
+Category:        Monitoring
+Website:         https://github.com/jpr5/ngrep/
+Author:          Jordan Ritter
+License:         Free, custom license:
+--------------------------------------------------
+tcpxtract        Extract files from network traffic.
+Category:        Monitoring
+Website:         http://tcpxtract.sourceforge.net
+Author:          Nick Harbour
+License:         GNU General Public License  v2
+--------------------------------------------------
+tcpflow          Analyze the flow of network traffic.
+Category:        Monitoring
+Website:         http://downloads.digitalcorpora.org/downloads/tcpflow/
+Author:          Simson L. Garfinkel
+License:         GNU General Public License  v3:
+--------------------------------------------------
+tcpick           Capture and analyze network traffic with this command-line sniffer.
+Category:        Monitoring
+Website:         http://tcpick.sourceforge.net
+Author:
+License:         GNU General Public License
+--------------------------------------------------
+thug             Examine suspicious website using this low-interaction honeyclient.
+Category:        Connecting
+Website:         https://github.com/buffer/thug
+Author:          Angelo Dell'Aera
+License:         GNU General Public License  v2:
+--------------------------------------------------
+netcat           Read and write data across network connections.
+Category:        Connecting
+Website:         https://nc110.sourceforge.io/
+Author:          Hobbit, Mike Frysinger, a3alex, Anatoly Techtonik
+License:         Public Domain
+--------------------------------------------------
+tor              Obfuscate your origins by routing traffic through a network of anonymizing nodes.
+Category:        Connecting
+Website:         https://www.torproject.org
+Author:          Roger Dingledine, Nick Mathewson, Tor Project Inc.
+License:         3-Clause BSD license:
+--------------------------------------------------
+Anomy            A wrapper around wget, ssh, sftp, ftp, and telnet to route these connections through Tor to anonymize your traffic.
+Category:        Connecting
+Website:         https://github.com/izm1chael/Anomy
+Author:          Mike Johnson
+License:         Free, unknown license
+--------------------------------------------------
+EPIC IRC Client  Examine IRC activities with this IRC client.
+Category:        Connecting
+Website:         http://www.epicsol.org/
+Author:          Michael Sandroff, Troy Rollo, Matthew Green, Jake Khuon, EPIC Software Labs
+License:         Free, custom license:
+--------------------------------------------------
+GNU Wget         Interact with servers via HTTP, HTTPS, FTP, and FTPS using this command-line tool.
+Category:        Connecting
+Website:         https://www.gnu.org/software/wget/
+Author:          Hrvoje Niksic, Tim Ruhsen, Darshit Shah, Giuseppe Scrivano
+License:         GNU General Public License  v3:
+--------------------------------------------------
+cURL             Interact with servers via supported protocols, including HTTP, HTTPS, FTP, IMAP, etc. using this command-line tool.
+Category:        Connecting
+Website:         https://curl.haxx.se
+Author:          Daniel Stenberg and contributors
+License:         Free, custom license:
+--------------------------------------------------
+dnsresolver.py   Respond to DNS queries in a controlled way.
+Category:        Services
+Website:         https://blog.didierstevens.com/2021/07/15/new-tool-dnsresolver-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+fakemail         Intercept and examine SMTP email activity with this fake SMTP server.
+Category:        Services
+Website:         [https://hg.sr.ht/
+Author:          Oliver Cope
+License:         Apache License 2.0:
+--------------------------------------------------
+accept-all-ips   Accept connections to all IPv4 and IPv6 addresses and redirect it to the corresponding local port.
+Category:        Services
+Website:         https://github.com/REMnux/distro/blob/master/files/accept-all-ips
+Author:          Lenny Zeltser, with input from the community
+License:         GNU General Public License  v3+
+--------------------------------------------------
+netcat           Read and write data across network connections.
+Category:        Services
+Website:         https://nc110.sourceforge.io/
+Author:          Hobbit, Mike Frysinger, a3alex, Anatoly Techtonik
+License:         Public Domain
+--------------------------------------------------
+Nginx            Web server
+Category:        Services
+Website:         https://nginx.org
+Author:          Igor Sysoev, Nginx Inc.
+License:         Free, custom license:
+--------------------------------------------------
+inspircd 3       Examine IRC activity with this IRC server.
+Category:        Services
+Website:         https://www.inspircd.org/
+Author:          InspIRCd Development Team
+License:         GNU General Public License  v2:
+--------------------------------------------------
+INetSim          Emulate common network services and interact with malware.
+Category:        Services
+Website:         https://www.inetsim.org/
+Author:          Thomas Hungenberg, Matthias Eckert
+License:         GNU General Public License  v3
+--------------------------------------------------
+FakeNet-NG       Emulate common network services and interact with malware.
+Category:        Services
+Website:         https://github.com/fireeye/flare-fakenet-ng
+Author:          FireEye Inc, Peter Kacherginsky, Michael Bailey
+License:         Apache License 2.0:
+Example:         sudo fakenet
+--------------------------------------------------
+ProcDOT          Visualize and examine the output of Process Monitor.
+Category:        Investigate System Interactions
+Website:         https://www.procdot.com
+Author:          Christian Wojner
+License:         Free, custom license:
+--------------------------------------------------
+sandfly-processdecloak Find hidden processes on the local Linux system.
+Category:        Investigate System Interactions
+Website:         https://github.com/sandflysecurity/sandfly-processdecloak
+Author:          Sandfly Security
+License:         MIT License:
+--------------------------------------------------
+Unhide           Find hidden processes or connections on the local Linux system.
+Category:        Investigate System Interactions
+Website:         http://www.unhide-forensics.info
+Author:          Yago Jesus
+License:         GNU General Public License  v3:
+Example:         unhide quick
+--------------------------------------------------
+Tesseract OCR    Examine images to identify and extract text using optical character recognition (OCR).
+Category:        General
+Website:         https://github.com/tesseract-ocr/tesseract
+Author:
+License:         Apache License 2.0:
+--------------------------------------------------
+Origami          Parse, modify, generate PDF files.
+Category:        PDF
+Website:         https://github.com/gdelugre/origami
+Author:          Guillaume Delugre
+License:         GNU Lesser General Public License  v3:
+--------------------------------------------------
+pdftool          Analyze PDF files to identify incremental updates to the document.
+Category:        PDF
+Website:         https://blog.didierstevens.com/2021/01/31/new-tool-pdftool-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+pdf-parser.py    Examine elements of the PDF file.
+Category:        PDF
+Website:         https://blog.didierstevens.com/programs/pdf-tools/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+pdfid.py         Identify suspicious elements of the PDF file.
+Category:        PDF
+Website:         https://blog.didierstevens.com/programs/pdf-tools/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+pdftk-java       Edit, create, and examine PDF files.
+Category:        PDF
+Website:         https://gitlab.com/pdftk-java/pdftk
+Author:          Marc Vinyals
+License:         GNU General Public License  v2:
+--------------------------------------------------
+pdfresurrect     Extract previous versions of content from PDF files.
+Category:        PDF
+Website:         https://github.com/enferex/pdfresurrect
+Author:          Matt Davis
+License:         GNU General Public License  v3:
+--------------------------------------------------
+qpdf             Manipulate (merge, convert, transform) PDF files.
+Category:        PDF
+Website:         http://qpdf.sourceforge.net/
+Author:          Jay Berkenbilt
+License:         Apache License 2.0:
+--------------------------------------------------
+msoffcrypto-tool Decrypt a Microsoft Office file with password, intermediate key, or private key which generated its escrow key.
+Category:        Microsoft Office
+Website:         https://github.com/nolze/msoffcrypto-tool
+Author:          nolze
+License:         MIT License:
+--------------------------------------------------
+pcodedmp         Disassemble VBA p-code
+Category:        Microsoft Office
+Website:         https://github.com/bontchev/pcodedmp
+Author:          Vesselin Bontchev
+License:         GNU General Public License  v3:
+--------------------------------------------------
+pcode2code       Decompile VBA macro p-code from Microsoft Office documents
+Category:        Microsoft Office
+Website:         https://github.com/Big5-sec/pcode2code
+Author:          Nicolas Zilio:
+License:         GNU General Public License  v3:
+--------------------------------------------------
+oletools         Microsoft Office OLE2 compound documents.
+Category:        Microsoft Office
+Website:         http://www.decalage.info/python/oletools
+Author:          Philippe Lagadec
+License:         Free, custom license:
+--------------------------------------------------
+EvilClippy       Modify aspects of Microsoft Office documents.
+Category:        Microsoft Office
+Website:         https://github.com/outflanknl/EvilClippy
+Author:          Stan Hegtwith contributions from Carrie Roberts
+License:         GNU General Public License  v3.0:
+Example:         evilclippy -uu
+--------------------------------------------------
+XLMMacroDeobfuscator Deobfuscate XLM macros (also known as Excel 4.0 macros) from Microsoft Office files.
+Category:        Microsoft Office
+Website:         https://github.com/DissectMalware/XLMMacroDeobfuscator
+Author:
+License:         Apache License 2.0:
+--------------------------------------------------
+ViperMonkey      A VBA parser and emulation engine to analyze malicious macros.
+Category:        Microsoft Office
+Website:         [https://www.decalage.info/en/vba
+Author:          Philippe Lagadec
+License:         Free, custom license:
+--------------------------------------------------
+msoffcrypto-crack.py Recover the password of an encrypted Microsoft Office document.
+Category:        Microsoft Office
+Website:         https://blog.didierstevens.com/2018/12/31/new-tool-msoffcrypto-crack-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+rtfdump          Analyze a suspicious RTF file.
+Category:        Microsoft Office
+Website:         https://blog.didierstevens.com/2018/12/10/update-rtfdump-py-version-0-0-9/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+zipdump.py       Analyze zip-compressed files.
+Category:        Microsoft Office
+Website:         https://blog.didierstevens.com/2020/07/27/update-zipdump-py-version-0-0-20/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+xmldump.py       Extract contents of XML files, in particular OOXML-formatted Microsoft Office documents.
+Category:        Microsoft Office
+Website:         https://blog.didierstevens.com/2017/12/18/new-tool-xmldump-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+oledump          Analyze OLE2 Structured Storage files.
+Category:        Microsoft Office
+Website:         https://blog.didierstevens.com/programs/oledump-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+libolecf         Microsoft Office OLE2 compound documents.
+Category:        Microsoft Office
+Website:         https://github.com/libyal/libolecf
+Author:          Joachim Metz
+License:         GNU Lesser General Public License  v3+:
+--------------------------------------------------
+msoffice-crypt   Encrypt and decrypt OOXML Microsoft Office documents.
+Category:        Microsoft Office
+Website:         https://github.com/herumi/msoffice
+Author:          Cybozu Labs Inc., Mitsunari Shigeo
+License:         Free, custom license:
+--------------------------------------------------
+Hachoir          View, edit, and carve contents of various binary file types.
+Category:        Microsoft Office
+Website:         https://github.com/vstinner/hachoir
+Author:
+License:         GNU General Public License  v2:
+--------------------------------------------------
+msg-extractor    Extract emails and attachments from MSG files.
+Category:        Email Messages
+Website:         https://github.com/TeamMsgExtractor/msg-extractor
+Author:
+License:         GNU General Public LIcense v3.0:
+--------------------------------------------------
+msgconvert       Convert MSG files to MBOX files.
+Category:        Email Messages
+Website:         https://www.matijs.net/software/msgconv/
+Author:          Matijs van Zuijlen
+License:         "Free software; you can redistribute it and/or modify it under the same terms as Perl itself":
+--------------------------------------------------
+mail-parser      Parse raw SMTP and .MSG email messages and generate a parsed object from them.
+Category:        Email Messages
+Website:         https://github.com/SpamScope/mail-parser
+Author:          Fedele Mantuano
+License:         Apache License 2.0:
+--------------------------------------------------
+dissect          Perform a variety of forensics and incident response tasks using this DFIR framework and toolset.
+Category:        Gather and Analyze Data
+Website:         https://github.com/fox-it/dissect
+Author:          Dissect Team: dissect@fox-it.com
+License:         GNU Affero General Public License v3:
+--------------------------------------------------
+time-decode      Decode and encode date and timestamps.
+Category:        Gather and Analyze Data
+Website:         [https://github.com/digitalsleuth/time
+Author:          Corey Forman
+License:         MIT License:
+--------------------------------------------------
+malwoverview     Query public repositories of malware data (e.g., VirusTotal, HybridAnalysis).
+Category:        Gather and Analyze Data
+Website:         https://github.com/alexandreborges/malwoverview
+Author:          Alexandre Borges
+License:         GNU General Public License v3:
+--------------------------------------------------
+Viper            Organize and query a collection of malware samples. (Temporarily excluded from the distro.)
+Category:        Gather and Analyze Data
+Website:         https://github.com/viper-framework/viper
+Author:          Claudio Guarnieri
+License:         BSD 3-Clause License:
+--------------------------------------------------
+ioc\_parser      Extract IOCs from security report PDFs.
+Category:        Gather and Analyze Data
+Website:         [https://github.com/buffer/ioc
+Author:          Armin Buescher
+License:         MIT License:
+--------------------------------------------------
+ipwhois          Retrieve and parse whois data for IP addresses.
+Category:        Gather and Analyze Data
+Website:         https://github.com/secynic/ipwhois
+Author:          Philip Hane
+License:         BSD 2-Clause "Simplified" License:
+--------------------------------------------------
+VirusTotal API   Query and interact with VirusTotal using a command-line interface.
+Category:        Gather and Analyze Data
+Website:         https://github.com/doomedraven/VirusTotalApi
+Author:          doomedraven
+License:         MIT License:
+--------------------------------------------------
+ioc\_writer      Python library that allows for basic creation and editing of OpenIOC objects.
+Category:        Gather and Analyze Data
+Website:         [https://github.com/mandiant/ioc
+Author:          William Gibb
+License:         Apache License 2.0:
+--------------------------------------------------
+shodan           Query Shodan, a search engine for internet-connected devices.
+Category:        Gather and Analyze Data
+Website:         https://github.com/achillean/shodan-python/
+Author:          John Matherly
+License:         Custom, free license:
+--------------------------------------------------
+PyPDNS           Python library to query passive DNS services that follow the Passive DNS - Common Output Format
+Category:        Gather and Analyze Data
+Website:         https://github.com/CIRCL/PyPDNS
+Author:          Raphael Vinot, Alexandre Dulaunoy, CIRCL - Computer Incident Response Center Luxembourg
+License:         Free, custom license:
+--------------------------------------------------
+pdnstool         Query passive DNS databases for DNS data.
+Category:        Gather and Analyze Data
+Website:         https://github.com/chrislee35/passivedns-client
+Author:          Chris Lee
+License:         MIT License:
+--------------------------------------------------
+DeXRAY           Extract and decode data from antivirus quarantine files.
+Category:        Gather and Analyze Data
+Website:         http://www.hexacorn.com/blog/category/software-releases/dexray/
+Author:          Hexacorn
+License:         Free; copyright by Hexacorn.com:
+--------------------------------------------------
+virustotal-submit Submit files to VirusTotal.
+Category:        Gather and Analyze Data
+Website:         https://blog.didierstevens.com/programs/virustotal-tools/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+virustotal-search Search VirusTotal for file hashes.
+Category:        Gather and Analyze Data
+Website:         https://blog.didierstevens.com/programs/virustotal-tools/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+Scalpel          Carve contents out of binary files, such as partitions.
+Category:        Gather and Analyze Data
+Website:         https://github.com/sleuthkit/scalpel
+Author:          Golden G. Richard III, Vassil Roussev
+License:         Apache License 2.0:
+Example:         scalpel image.dd
+--------------------------------------------------
+nsrllookup       Look up MD5 file hashes in the NIST National Software Reference Library (NSRL).
+Category:        Gather and Analyze Data
+Website:         https://github.com/rjhansen/nsrllookup
+Author:          Robert J. Hansen
+License:         ISC License:
+--------------------------------------------------
+Yara             Identify and classify malware samples using Yara rules.
+Category:        Gather and Analyze Data
+Website:         https://virustotal.github.io/yara/
+Author:
+License:         BSD 3-Clause "New" or "Revised" License:
+--------------------------------------------------
+Evince           View documents in a variety of formats, including PDF.
+Category:        View or Edit Files
+Website:         https://wiki.gnome.org/Apps/Evince
+Author:          Jonathan Blandford, Nickolay V. Shmyrev, Carlos Garcia Campos
+License:         GNU General Public License  v2:
+--------------------------------------------------
+dos2unix         Convert text files with Windows or macOS line breaks to Unix line breaks and vice versa.
+Category:        View or Edit Files
+Website:         https://waterlan.home.xs4all.nl/dos2unix.html
+Author:          Benjamin Lin, Bernd Johannes Wuebben, Erwin Waterlander
+License:         FreeBSD style license:
+--------------------------------------------------
+VBinDiff         Compare binary files.
+Category:        View or Edit Files
+Website:         https://www.cjmweb.net/vbindiff/
+Author:          Christopher J. Madsen
+License:         GNU General Public License  v2 or greater
+--------------------------------------------------
+wxHexEditor      Hex editor
+Category:        View or Edit Files
+Website:         https://sourceforge.net/projects/wxhexeditor/
+Author:          Unknown
+License:         GNU General Public License  v2:
+--------------------------------------------------
+SciTE            Edit text files.
+Category:        View or Edit Files
+Website:         https://www.scintilla.org/SciTE.html
+Author:
+License:         Free, unknown license
+--------------------------------------------------
+ImageMagick      View and manipulate image and related files
+Category:        View or Edit Files
+Website:         https://imagemagick.org/
+Author:          ImageMagick Studio LLC,(
+License:         Free, custom license:
+--------------------------------------------------
+Visual Studio Code Powerful source code editor
+Category:        View or Edit Files
+Website:         https://code.visualstudio.com/
+Author:          Microsoft Corporation
+License:         Custom license:
+--------------------------------------------------
+myip             Determine the IP address of the default network interface.
+Category:        General Utilities
+Website:         https://github.com/REMnux/distro/blob/master/files/myip
+Author:          Lenny Zeltser, with input from the community
+License:         Public Domain
+--------------------------------------------------
+texteditor.py    Edit text files from the command line using search-and-replace commands.
+Category:        General Utilities
+Website:         https://blog.didierstevens.com/2021/07/05/new-tool-texteditor-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+sortcanon.py     Sort text files using canonicalization functions built into this tool.
+Category:        General Utilities
+Website:         https://blog.didierstevens.com/2022/06/18/new-tool-sortcanon-py/
+Author:          Didier Stevens
+License:         Public Domain
+--------------------------------------------------
+OpenSSH          Initiate and receive SSH and SFTP connections.
+Category:        General Utilities
+Website:         https://www.openssh.com
+Author:
+License:         BSD licence:
+--------------------------------------------------
+7-Zip            Compress and decompress files using a variety of algorithms.
+Category:        General Utilities
+Website:         https://www.7-zip.org
+Author:          Igor Pavlov
+License:         GNU Lesser General Public License
+--------------------------------------------------
+Firefox          Web browser
+Category:        General Utilities
+Website:         https://www.mozilla.org/firefox/
+Author:          Mozilla Corporation
+License:         Mozilla Public License :
+--------------------------------------------------
+PostgreSQL       Relational Database
+Category:        General Utilities
+Website:         https://www.postgresql.org
+Author:          PostgreSQL Global Development Group
+License:         PostgreSQL Licence:
+--------------------------------------------------
+Info-ZIP         Compress and decompress files using the zip algorithm.
+Category:        General Utilities
+Website:         http://infozip.sourceforge.net
+Author:          Ed Gordon, Mark Adler, Jean-loup Gailly, David Kirschbaum, Rich Wales, etc.
+License:         Free, custom license
+--------------------------------------------------
+cabextract       Extract Microsoft cabinet (cab) files.
+Category:        General Utilities
+Website:         https://www.cabextract.org.uk
+Author:
+License:         GNU General Public License
+--------------------------------------------------
+nasm             An x86-64 assembler
+Category:        General Utilities
+Website:         https://www.nasm.us
+Author:          H. Peter Anvin, Cyrill Gorcunov, Chang Seok Bae, Jim Kukunas, Frank B. Kotler, etc.
+License:         BSD 2-Clause "Simplified" License:
+--------------------------------------------------
+SQLite           Manage and interact with SQL database files.
+Category:        General Utilities
+Website:         http://www.sqlite.org
+Author:          D. Richard Hipp, Dan Kennedy, Joe Mistachkin
+License:         Public Domain:
+--------------------------------------------------
+unrar-free       Decompress files using a variety of algorithms.
+Category:        General Utilities
+Website:         https://www.rarlab.com
+Author:          Ben Asselstine, Eugene Roshal, Christian Scheurer, Johannes Winkelmann
+License:         GNU General Public License  v2+
+--------------------------------------------------
+RAR              Compress and decompress files using a variety of algorithms.
+Category:        General Utilities
+Website:         https://www.rarlab.com
+Author:          Alexander Roshal
+License:         Shareware: "Anyone may use this software during a test period of 40 days. Following this test period of 40 days or less, if you wish to continue to use RAR, you must purchase a license." For details, see
+--------------------------------------------------
+Docker           Run and manage containers.
+Category:        General Utilities
+Website:         https://www.docker.com
+Author:          Docker Inc.
+License:         Apache License 2.0:
+--------------------------------------------------
+Nautilus         Graphical file manager
+Category:        General Utilities
+Website:         https://gitlab.gnome.org/GNOME/nautilus
+Author:
+License:         GNU General Public License  v3:
+--------------------------------------------------
+PowerShell Core  Run PowerShell scripts and commands.
+Category:        General Utilities
+Website:         https://github.com/powershell/powershell
+Author:          Microsoft Corporation
+License:         MIT License:
+--------------------------------------------------
+Wine             Run Windows applications.
+Category:        General Utilities
+Website:         https://www.winehq.org
+Author:
+License:         GNU Lesser General Public License  v2.1 or later:
+--------------------------------------------------
+cURL             Interact with servers via supported protocols, including HTTP, HTTPS, FTP, IMAP, etc. using this command-line tool.
+Category:        General Utilities
+Website:         https://curl.haxx.se
+Author:          Daniel Stenberg and contributors
+License:         Free, custom license:
+--------------------------------------------------
+IBus             Adjust input methods for the GUI.
+Category:        General Utilities
+Website:         https://github.com/ibus/ibus
+Author:          Peng Huang, Takao Fujiwara
+License:         GNU Lesser General Public License  v2.1:
+--------------------------------------------------
+GNOME Calculator Calculator
+Category:        General Utilities
+Website:         https://wiki.gnome.org/Apps/Calculator
+Author:
+License:         GNU General Public License  v3:
+--------------------------------------------------
+myjson-filter.py Filter data formatted using the JSON format used by Didier Stevens' tools.
+Category:        General Utilities
+Website:         https://blog.didierstevens.com/2022/04/09/new-tool-myjson-filter-py/
+Author:          Didier Stevens:
+License:         Public Domain
+--------------------------------------------------
+hashit           Quickly generate MD5, SHA1, SHA256, and SHA512 hashes of a file.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         hashit suspicious.exe
+--------------------------------------------------
+hashcheck        Computes multiple cryptographic hashes and prints them side-by-side.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         hashcheck /samples/mal.exe
+--------------------------------------------------
+mzcount          Tallies file extensions and MIME types in a directory.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         mzcount /evidence
+--------------------------------------------------
+mzhash           Recursively hash all files in a directory using MD5.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         mzhash /evidence
+--------------------------------------------------
+xmzhash          Recursively hash all files in a directory using MD5, SHA1, and SHA256.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         xmzhash /evidence
+--------------------------------------------------
+combine_yara     Combines multiple YARA rule files into a single merged rule set.
+Category:        Malware
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         combine_yara rules/
+--------------------------------------------------
+mstrings         Extracts printable strings from files and maps them to MITRE ATT&CK techniques.
+Category:        Malware
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         mstrings suspicious.exe
+--------------------------------------------------
+fileanalyzer     Analyzes file metadata, headers, and hashes to assist triage and detection.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         fileanalyzer /samples/mal.exe
+--------------------------------------------------
+fileminer        Recursively scans a directory for files of interest based on extensions and type.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         fileminer /evidence/folder
+--------------------------------------------------
+malhash          Looks up file hashes using VirusTotal and MalwareBazaar.
+Category:        Malware
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         malhash -h <hash>
+--------------------------------------------------
+strings_to_yara  Generates a basic YARA rule from strings gathered manually or via mstrings.
+Category:        Malware
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         strings_to_yara
+--------------------------------------------------
+nsrlquery        Checks file hashes against the National Software Reference Library.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         nsrlquery -f suspicious.exe
+--------------------------------------------------
+extract_samples  Extracts files from password-protected ZIP and RAR archives.
+Category:        Triage
+Website:         https://github.com/dwmetz/MalChela
+Author:          Doug Metz
+License:         MIT
+Example:         extract_samples suspected.zip
+--------------------------------------------------

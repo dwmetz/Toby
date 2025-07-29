@@ -1,0 +1,300 @@
+Tool:        mstrings
+Description: Extracts printable strings from files and maps them to MITRE ATT&CK techniques.
+Example:     mstrings suspicious.exe
+Category:    Malware
+--------------------------------------------------
+Tool:        fileanalyzer
+Description: Analyzes file metadata, headers, and hashes to assist triage and detection.
+Example:     fileanalyzer /samples/mal.exe
+Category:    Triage
+--------------------------------------------------
+Tool:        fileminer
+Description: Recursively scans a directory for files of interest based on extensions and type.
+Example:     fileminer /evidence/folder
+Category:    Triage
+--------------------------------------------------
+Tool:        malhash
+Description: Looks up file hashes using VirusTotal and MalwareBazaar.
+Example:     malhash -h <hash>
+Category:    Malware
+--------------------------------------------------
+Tool:        vpn-on
+Description: Starts the OpenVPN client using the configured lab connection.
+Example:     sudo systemctl start openvpn@lab
+Category:    Access
+--------------------------------------------------
+Tool:        vpn-off
+Description: Stops the active OpenVPN session.
+Example:     sudo systemctl stop openvpn@lab
+Category:    Access
+--------------------------------------------------
+Tool:        vnc-on
+Description: Starts a VNC server session for remote desktop access.
+Example:     vncserver :1 -xstartup ~/.vnc/xstartup
+Category:    Access
+--------------------------------------------------
+Tool:        vnc-off
+Description: Stops the running VNC session.
+Example:     vncserver -kill :1
+Category:    Access
+--------------------------------------------------
+Tool:        speed
+Description: Performs a network speed test from the command line.
+Example:     speedtest-cli
+Category:    Diagnostics
+--------------------------------------------------
+Tool:        ipstatus
+Description: Shows interface configuration and public IP address.
+Example:     ip a && curl ifconfig.me
+Category:    Diagnostics
+--------------------------------------------------
+Tool:        strings_to_yara
+Description: Generates a basic YARA rule from strings gathered manually or via mstrings.
+Example:     strings_to_yara
+Category:    Malware
+--------------------------------------------------
+Tool:        nsrlquery
+Description: Checks file hashes against the National Software Reference Library.
+Example:     nsrlquery -f suspicious.exe
+Category:    Triage
+--------------------------------------------------
+Tool:        extract_samples
+Description: Extracts files from password-protected ZIP and RAR archives.
+Example:     extract_samples suspected.zip
+Category:    Triage
+--------------------------------------------------
+Tool:        tshark
+Description: Terminal version of Wireshark for packet capture and filtering.
+Example:     tshark -r capture.pcap
+Category:    Network
+--------------------------------------------------
+Tool:        nmap
+Description: Performs host discovery and port scanning on a network.
+Example:     nmap -sV 192.168.1.1
+Category:    Network
+--------------------------------------------------
+Tool:        binwalk
+Description: Scans binaries for embedded files and executable code.
+Example:     binwalk -e firmware.bin
+Category:    Forensics
+--------------------------------------------------
+Tool:        bulk_extractor
+Description: Extracts artifacts like emails and credit card numbers from disk images.
+Example:     bulk_extractor -o output/ image.dd
+Category:    Forensics
+--------------------------------------------------
+Tool:        foremost
+Description: Recovers deleted files from disk images using file carving.
+Example:     foremost -i image.dd -o output/
+Category:    Forensics
+--------------------------------------------------
+Tool:        floss
+Description: Extracts obfuscated strings from malware binaries.
+Example:     floss suspicious.exe
+Category:    Forensics
+--------------------------------------------------
+Tool:        volatility3
+Description: Memory forensics framework for analyzing RAM dumps.
+Example:     vol3 -f mem.raw windows.pslist
+Category:    Forensics
+--------------------------------------------------
+Tool:        exiftool
+Description: Displays metadata from images, PDFs, and other file types.
+Example:     exiftool image.jpg
+Category:    Forensics
+--------------------------------------------------
+Tool:        hashdeep
+Description: Generates and verifies file hashes for entire directories.
+Example:     hashdeep -r /evidence
+Category:    Triage
+--------------------------------------------------
+Tool:        ssdeep
+Description: Performs context-triggered piecewise hashing (fuzzy hashing).
+Example:     ssdeep -r /evidence
+Category:    Triage
+--------------------------------------------------
+Tool:        tcpdump
+Description: Captures and displays raw network packets in real time.
+Example:     tcpdump -i eth0
+Category:    Network
+--------------------------------------------------
+Tool:        ipcalc
+Description: Performs subnet calculations for IP ranges.
+Example:     ipcalc 192.168.1.0/24
+Category:    Network
+--------------------------------------------------
+Tool:        dig
+Description: Performs DNS lookups to retrieve domain IPs and records.
+Example:     dig +short example.com
+Category:    Network
+--------------------------------------------------
+Tool:        mosh
+Description: SSH replacement that maintains session state during roaming.
+Example:     mosh user@host
+Category:    Access
+--------------------------------------------------
+Tool:        ssh
+Description: Standard secure shell for remote command-line access.
+Example:     ssh user@host
+Category:    Access
+--------------------------------------------------
+Tool:        tmux
+Description: Terminal multiplexer for managing multiple sessions.
+Example:     tmux new -s session
+Category:    Access
+--------------------------------------------------
+Tool:        screen
+Description: Terminal window manager similar to tmux.
+Example:     screen -S session
+Category:    Access
+--------------------------------------------------
+Tool:        htop
+Description: Interactive system monitor showing real-time process usage.
+Example:     htop
+Category:    Utils
+--------------------------------------------------
+Tool:        ncdu
+Description: Disk usage analyzer with an interactive interface.
+Example:     ncdu /
+Category:    Utils
+--------------------------------------------------
+Tool:        bat
+Description: Cat replacement with syntax highlighting and Git integration.
+Example:     bat ~/.bashrc
+Category:    Utils
+--------------------------------------------------
+Tool:        uptime
+Description: Displays system uptime and load averages.
+Example:     uptime
+Category:    Utils
+--------------------------------------------------
+Tool:        reglookup
+Description: Queries Windows Registry hives from the command line.
+Example:     reglookup -p Software
+Category:    Forensics
+--------------------------------------------------
+Tool:        regripper
+Description: Extracts and parses registry artifacts using Perl-based plugins.
+Example:     rip.pl -r SYSTEM -f system
+Category:    Forensics
+--------------------------------------------------
+Tool:        rephrase
+Description: Analyzes and reformats strings from documents or binaries.
+Example:     rephrase input.txt
+Category:    Forensics
+--------------------------------------------------
+Tool:        rifiuti2
+Description: Parses Windows Recycle Bin INFO2 files for forensic analysis.
+Example:     rifiuti2 -o unix INFO2
+Category:    Forensics
+--------------------------------------------------
+Tool:        rkhunter
+Description: Scans the system for known rootkits and suspicious behavior.
+Example:     rkhunter --check
+Category:    Forensics
+--------------------------------------------------
+Tool:        rsakeyfind
+Description: Searches RAM dumps for RSA private key patterns.
+Example:     rsakeyfind mem.dmp
+Category:    Forensics
+--------------------------------------------------
+Tool:        safecopy
+Description: Recovers data from damaged or unstable storage media.
+Example:     safecopy /dev/sdb1 image.raw
+Category:    Forensics
+--------------------------------------------------
+Tool:        samdump2
+Description: Extracts password hashes from Windows SAM files.
+Example:     samdump2 SYSTEM SAM
+Category:    Forensics
+--------------------------------------------------
+Tool:        scalpel
+Description: Performs file carving on disk images using headers/footers.
+Example:     scalpel image.dd
+Category:    Forensics
+--------------------------------------------------
+Tool:        scrounge-ntfs
+Description: Recovers deleted files from NTFS file systems.
+Example:     scrounge-ntfs /dev/sda1
+Category:    Forensics
+--------------------------------------------------
+Tool:        truecrack
+Description: Attempts to brute-force passwords for TrueCrypt volumes.
+Example:     truecrack -t volume.tc -w wordlist.txt
+Category:    Forensics
+--------------------------------------------------
+Tool:        undbx
+Description: Extracts messages from Outlook Express DBX mailboxes.
+Example:     undbx -o out/ inbox.dbx
+Category:    Forensics
+--------------------------------------------------
+Tool:        unhide
+Description: Detects hidden processes and tasks in Linux systems.
+Example:     unhide quick
+Category:    Forensics
+--------------------------------------------------
+Tool:        unar
+Description: Extracts files from .rar and other archives.
+Example:     unar archive.rar
+Category:    Forensics
+--------------------------------------------------
+Tool:        upx
+Description: Compresses or decompresses executable files.
+Example:     upx -d malware.exe
+Category:    Forensics
+--------------------------------------------------
+Tool:        vinetto
+Description: Parses thumbnail caches from Internet Explorer and Firefox.
+Example:     vinetto Thumbs.db
+Category:    Forensics
+--------------------------------------------------
+Tool:        winregfs
+Description: Mounts Windows Registry hives as a read-only virtual filesystem.
+Example:     winregfs /mnt/registry SYSTEM
+Category:    Forensics
+--------------------------------------------------
+Tool:        xmount
+Description: Converts between forensic image formats (e.g. EWF to RAW).
+Example:     xmount --in ewf image.E01 --out dd /mnt/evidence
+Category:    Forensics
+--------------------------------------------------
+Tool:        p0f
+Description: Performs passive OS fingerprinting from live network traffic.
+Example:     p0f -i eth0
+Category:    Network
+--------------------------------------------------
+Tool:        dff
+Description: Digital Forensics Framework with CLI and GUI modes.
+Example:     dffcli -i image.dd
+Category:    Forensics
+--------------------------------------------------
+Tool:        hashit
+Description: Quickly generate MD5, SHA1, SHA256, and SHA512 hashes of a file.
+Example:     hashit suspicious.exe
+Category:    Triage
+--------------------------------------------------
+Tool:        hashcheck
+Description: Computes multiple cryptographic hashes and prints them side-by-side.
+Example:     hashcheck /samples/mal.exe
+Category:    Triage
+--------------------------------------------------
+Tool:        mzcount
+Description: Tallies file extensions and MIME types in a directory.
+Example:     mzcount /evidence
+Category:    Triage
+--------------------------------------------------
+Tool:        mzhash
+Description: Recursively hash all files in a directory using MD5.
+Example:     mzhash /evidence
+Category:    Triage
+--------------------------------------------------
+Tool:        xmzhash
+Description: Recursively hash all files in a directory using MD5, SHA1, and SHA256.
+Example:     xmzhash /evidence
+Category:    Triage
+--------------------------------------------------
+Tool:        combine_yara
+Description: Combines multiple YARA rule files into a single merged rule set.
+Example:     combine_yara rules/
+Category:    Malware
+--------------------------------------------------
