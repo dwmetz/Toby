@@ -98,15 +98,18 @@ tf-help
 | `help_files/`  | Contains `toby-cli-help-kali.txt`, `toby-cli-help-remnux.txt`, and ASCII |
 | `README.md`    | This file |
 
----
 
-## 🔗 Web Site
-
-**https://bakerstreetforensics.com**  
-Where Irregulars Are Part of the Game
 
 ---
 
 ## 🪪 License
 
-MIT License — see the [MalChela GitHub](https://github.com/dwmetz/MalChela) for more forensic tooling.
+MIT License 
+
+---
+
+## 🔗 Links
+
+- [Baker Street Forensics blog](https://bakerstreetforensics.com) Where Irregulars Are Part of the Game
+- [Toby 'merch'](https://www.teepublic.com/t-shirt/77707626-toby?store_id=1306149)
+- Check out the [MalChela GitHub](https://github.com/dwmetz/MalChela) for more forensic tooling, and my other repositories [here.](https://github.com/dwmetz)
